@@ -1,6 +1,6 @@
 # _Cookie Recipe_
 
-#### By _Ariel Doyle_
+#### By _Ariel Doyle, Brooke Kullberg, Ellen Klehman_
 
 #### _This is a basic HTML page as practice for writing code, working with HTML tags, and working with Github repositories._
 
@@ -28,4 +28,4 @@ _This is a basic HTML page as practice for writing code in line with lessons tau
 
 _[MIT](https://choosealicense.com/licenses/mit/)_
 
-Copyright (c) _2022_ _Ariel Doyle_
+Copyright (c) _2022_ _Ariel Doyle, Brooke Kullberg, Ellen Klehman_
