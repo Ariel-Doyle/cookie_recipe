@@ -26,5 +26,14 @@ window.onload = function() {
     document.body.style.color = 'black';
   };
 
+  const defaultFontButton = document.getElementById("defaultFont");
+  defaultFontButton.onclick = function() {
+    document.body.style.fontSize = '16px';
+  };
+
+  const largeFontButton = document.getElementById("largeFont");
+  largeFontButton.onclick = function() {
+    document.body.style.fontSize = '45px';
+  };
   
 }
