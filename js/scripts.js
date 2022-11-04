@@ -1,12 +1,19 @@
 window.onload = function() {
   let h1 = document.querySelector("h1");
-  h1.onclick = function() {
-    window.alert("I am a heading element.");
+  h1.onmouseover = function() {
+    h1.style.backgroundColor = 'yellow';
+    h1.onmouseout = function() {
+      h1.style.backgroundColor = 'white';
+    }
   };
 
   let p = document.querySelector("p");
   p.onmouseover = function() {
     document.querySelector("p>em").innerText = "Don't be surprised";
+    p.style.backgroundColor = 'yellow';
+    p.onmouseout = function() {
+      p.style.backgroundColor = 'white';
+    }
   };
 
   let img = document.querySelector("img");
