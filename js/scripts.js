@@ -14,11 +14,17 @@ window.onload = function() {
     img.style.height = "700px";
   };
 
-  let darkButton = document.querySelector("darkButton");
-  button.onclick = function() {
-    button.style.backgroundColor = "black";
+  const darkButton = document.getElementById("darkMode");
+  darkButton.onclick = function() {
+    document.body.style.backgroundColor = 'black';
+    document.body.style.color = 'white';
   };
-  }
+
+  const lightButton = document.getElementById("lightMode");
+  lightButton.onclick = function() {
+    document.body.style.backgroundColor = 'white';
+    document.body.style.color = 'black';
+  };
 
   
-};
+}
